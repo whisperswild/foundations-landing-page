@@ -3,13 +3,14 @@
 body {
     height: 100vh;
     margin: 0px;
+
     font-family: Roboto, sans-serif;
 }
 
 button {
     background-color: #3882F6;
     border: 1px solid white;
-    border-radius: 10%;
+    border-radius: 12px;
     padding: 10px;
     color: white;
 }
@@ -125,21 +126,39 @@ ul {
 }
 
 .ad-segment {
-    background-color: #3882F6;
+    background-color: white;
     color: white;
     padding: 20px;
 
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
 }
 
+.ad-text {
+    background-color: #3882F6;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    min-width: 50em;
+    justify-content: flex-start;
+}
+
 .ad-button {
-    justify-content: flex-end;
+    align-self: flex-end;
+    align-content: center;
+
 }
 
 .footer {
+    background-color: #1F2937;
+    color: white;
+    size: 18px;
     padding: 20px;
 
     display: flex;
+    justify-content: center;
+
 }
